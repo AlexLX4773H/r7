@@ -1,0 +1,4 @@
+   1:	t1 := r + v
+2:	t2 := t1 - c
+3:	s := t2
+while a < 5 goto 1

@@ -1,0 +1,54 @@
+$0		(a+(a+(a+(a)+a)*a)+a)$		Shift (4		
+$0(4		a+(a+(a+(a)+a)*a)+a)$		Shift a5		
+$0(4a5		+(a+(a+(a)+a)*a)+a)$		Reduce F->a (r6)		
+$0(4F3		+(a+(a+(a)+a)*a)+a)$		Reduce T->F (r4)		
+$0(4T2		+(a+(a+(a)+a)*a)+a)$		Reduce E->T (r2)		
+$0(4E8		+(a+(a+(a)+a)*a)+a)$		Shift +6		
+$0(4E8+6		(a+(a+(a)+a)*a)+a)$		Shift (4		
+$0(4E8+6(4		a+(a+(a)+a)*a)+a)$		Shift a5		
+$0(4E8+6(4a5		+(a+(a)+a)*a)+a)$		Reduce F->a (r6)		
+$0(4E8+6(4F3		+(a+(a)+a)*a)+a)$		Reduce T->F (r4)		
+$0(4E8+6(4T2		+(a+(a)+a)*a)+a)$		Reduce E->T (r2)		
+$0(4E8+6(4E8		+(a+(a)+a)*a)+a)$		Shift +6		
+$0(4E8+6(4E8+6		(a+(a)+a)*a)+a)$		Shift (4		
+$0(4E8+6(4E8+6(4		a+(a)+a)*a)+a)$		Shift a5		
+$0(4E8+6(4E8+6(4a5		+(a)+a)*a)+a)$		Reduce F->a (r6)		
+$0(4E8+6(4E8+6(4F3		+(a)+a)*a)+a)$		Reduce T->F (r4)		
+$0(4E8+6(4E8+6(4T2		+(a)+a)*a)+a)$		Reduce E->T (r2)		
+$0(4E8+6(4E8+6(4E8		+(a)+a)*a)+a)$		Shift +6		
+$0(4E8+6(4E8+6(4E8+6		(a)+a)*a)+a)$		Shift (4		
+$0(4E8+6(4E8+6(4E8+6(4		a)+a)*a)+a)$		Shift a5		
+$0(4E8+6(4E8+6(4E8+6(4a5		)+a)*a)+a)$		Reduce F->a (r6)		
+$0(4E8+6(4E8+6(4E8+6(4F3		)+a)*a)+a)$		Reduce T->F (r4)		
+$0(4E8+6(4E8+6(4E8+6(4T2		)+a)*a)+a)$		Reduce E->T (r2)		
+$0(4E8+6(4E8+6(4E8+6(4E8		)+a)*a)+a)$		Shift )11		
+$0(4E8+6(4E8+6(4E8+6(4E8)11		+a)*a)+a)$		Reduce F->(E) (r5)		
+$0(4E8+6(4E8+6(4E8+6F3		+a)*a)+a)$		Reduce T->F (r4)		
+$0(4E8+6(4E8+6(4E8+6T9		+a)*a)+a)$		Reduce E->E+T (r1)		
+$0(4E8+6(4E8+6(4E8		+a)*a)+a)$		Shift +6		
+$0(4E8+6(4E8+6(4E8+6		a)*a)+a)$		Shift a5		
+$0(4E8+6(4E8+6(4E8+6a5		)*a)+a)$		Reduce F->a (r6)		
+$0(4E8+6(4E8+6(4E8+6F3		)*a)+a)$		Reduce T->F (r4)		
+$0(4E8+6(4E8+6(4E8+6T9		)*a)+a)$		Reduce E->E+T (r1)		
+$0(4E8+6(4E8+6(4E8		)*a)+a)$		Shift )11		
+$0(4E8+6(4E8+6(4E8)11		*a)+a)$		Reduce F->(E) (r5)		
+$0(4E8+6(4E8+6F3		*a)+a)$		Reduce T->F (r4)		
+$0(4E8+6(4E8+6T9		*a)+a)$		Shift *7		
+$0(4E8+6(4E8+6T9*7		a)+a)$		Shift a5		
+$0(4E8+6(4E8+6T9*7a5		)+a)$		Reduce F->a (r6)		
+$0(4E8+6(4E8+6T9*7F10		)+a)$		Reduce T->T*F (r3)		
+$0(4E8+6(4E8+6T9		)+a)$		Reduce E->E+T (r1)		
+$0(4E8+6(4E8		)+a)$		Shift )11		
+$0(4E8+6(4E8)11		+a)$		Reduce F->(E) (r5)		
+$0(4E8+6F3		+a)$		Reduce T->F (r4)		
+$0(4E8+6T9		+a)$		Reduce E->E+T (r1)		
+$0(4E8		+a)$		Shift +6		
+$0(4E8+6		a)$		Shift a5		
+$0(4E8+6a5		)$		Reduce F->a (r6)		
+$0(4E8+6F3		)$		Reduce T->F (r4)		
+$0(4E8+6T9		)$		Reduce E->E+T (r1)		
+$0(4E8		)$		Shift )11		
+$0(4E8)11		$		Reduce F->(E) (r5)		
+$0F3		$		Reduce T->F (r4)		
+$0T2		$		Reduce E->T (r2)		
+$0E1		$		PARSING SUCCESSFUL		

@@ -1,0 +1,52 @@
+
+	  DATA FLOW
+	*************
+
+------------------------------------
+ACTION |
+------------------------------------
+GOTO   |  	I0  <---  E   --->  I1
+GOTO   |  	I0  <---  T   --->  I2
+GOTO   |  	I0  <---  F   --->  I3
+SHIFT  | 	I0  <---  (   --->  I4
+SHIFT  | 	I0  <---  a   --->  I5
+ACCEPT |  	I1  <---  $   --->  ACCEPT
+SHIFT  | 	I1  <---  +   --->  I6
+REDUCE |  	I2  <---  $   --->  r2
+REDUCE |  	I2  <---  +   --->  r2
+REDUCE |  	I2  <---  )   --->  r2
+SHIFT  | 	I2  <---  *   --->  I7
+REDUCE |  	I3  <---  $   --->  r4
+REDUCE |  	I3  <---  +   --->  r4
+REDUCE |  	I3  <---  )   --->  r4
+REDUCE |  	I3  <---  *   --->  r4
+GOTO   |  	I4  <---  E   --->  I8
+GOTO   |  	I4  <---  T   --->  I2
+GOTO   |  	I4  <---  F   --->  I3
+SHIFT  | 	I4  <---  (   --->  I4
+SHIFT  | 	I4  <---  a   --->  I5
+REDUCE |  	I5  <---  $   --->  r6
+REDUCE |  	I5  <---  +   --->  r6
+REDUCE |  	I5  <---  )   --->  r6
+REDUCE |  	I5  <---  *   --->  r6
+GOTO   |  	I6  <---  T   --->  I9
+GOTO   |  	I6  <---  F   --->  I3
+SHIFT  | 	I6  <---  (   --->  I4
+SHIFT  | 	I6  <---  a   --->  I5
+GOTO   |  	I7  <---  F   --->  I10
+SHIFT  | 	I7  <---  (   --->  I4
+SHIFT  | 	I7  <---  a   --->  I5
+SHIFT  | 	I8  <---  )   --->  I11
+SHIFT  | 	I8  <---  +   --->  I6
+REDUCE |  	I9  <---  $   --->  r1
+REDUCE |  	I9  <---  +   --->  r1
+REDUCE |  	I9  <---  )   --->  r1
+SHIFT  | 	I9  <---  *   --->  I7
+REDUCE |  	I10  <---  $   --->  r3
+REDUCE |  	I10  <---  +   --->  r3
+REDUCE |  	I10  <---  )   --->  r3
+REDUCE |  	I10  <---  *   --->  r3
+REDUCE |  	I11  <---  $   --->  r5
+REDUCE |  	I11  <---  +   --->  r5
+REDUCE |  	I11  <---  )   --->  r5
+REDUCE |  	I11  <---  *   --->  r5
