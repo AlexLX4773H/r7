@@ -1,0 +1,18 @@
+import math
+
+def Prime_Check(n):
+    j = 0
+    for i in range (2, n) :
+        if n % i == 0 :
+            return -1
+        else :
+            continue
+
+s_num = input("Enter a number:")
+i_num = int(s_num)
+prime_or_not = Prime_Check(i_num)
+if prime_or_not == -1 :
+    print("Not a Prime Number")
+else :
+    print(i_num,"is a Prime Number")
+:exit

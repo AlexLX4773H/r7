@@ -1,0 +1,7 @@
+
+number = 6
+if number > 0 :
+    print(number,"positive")
+else :
+    print(number,"negative")
+:exit

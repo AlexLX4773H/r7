@@ -1,0 +1,20 @@
+
+ TOKEN <IDENTIFIER>  number 
+ TOKEN <ASSIGN_OP>   = 
+ TOKEN <NUMBER>      6 
+
+ TOKEN <KEYWORD>     if 
+ TOKEN <IDENTIFIER>  number 
+ TOKEN <RELOP>       > 
+ TOKEN <NUMBER>      0 
+
+ TOKEN <KEYWORD>     print 
+ TOKEN <IDENTIFIER>  number 
+ TOKEN <STRING>      "positive" 
+
+ TOKEN <KEYWORD>     else 
+
+ TOKEN <KEYWORD>     print 
+ TOKEN <IDENTIFIER>  number 
+ TOKEN <STRING>      "negative" 
+
